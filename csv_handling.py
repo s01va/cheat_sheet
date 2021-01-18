@@ -3,7 +3,7 @@
 import csv
 
 def readcsv():
-	f = open(filename, 'r', newline='', encoding='utf-8')
+	f = open(filename, 'r', newline='')
 	reader = csv.reader(f, delimiter=',')
 
 	for line in reader:
