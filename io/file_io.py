@@ -8,9 +8,6 @@ def readfile(filename):
 			break
 		print(line)
 
-	###########################
-	
-
 	f.close()
 
 
